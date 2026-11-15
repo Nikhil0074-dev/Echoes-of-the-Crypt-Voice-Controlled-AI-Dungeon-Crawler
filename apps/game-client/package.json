@@ -1,0 +1,28 @@
+{
+  "name": "@dungeon/game-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@dungeon/ai-engine": "*",
+    "@dungeon/game-core": "*",
+    "@dungeon/shared": "*",
+    "@fontsource/press-start-2p": "^5.1.0",
+    "@fontsource/vt323": "^5.1.0",
+    "phaser": "^3.80.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^8.3.8"
+  }
+}
