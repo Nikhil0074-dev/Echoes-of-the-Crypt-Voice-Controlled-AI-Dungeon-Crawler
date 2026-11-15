@@ -6,6 +6,10 @@ Speak to your hero. *"Go to the treasure chest and open it."* A natural-language
 Microphone → Web Speech API → transcript → Command interpreter → structured JSON  → schema validation → game-state validation (engine) → animated result
 ```
 
+
+![Architecture diagram](docs/diagram.png) **Architecture diagram**
+
+
 The **AI never touches game state.** It only proposes actions. The engine decides what is legal.
 
 ## Quick start
