@@ -23,6 +23,6 @@ Base path `/api/v1`. JSON bodies ≤ 64 KB. `/commands/interpret` is limited to 
 
 Duplicate `requestId`s within a connection are rejected.
 
-## Persistence
+## Persistence 
 
 Client saves use `localStorage` key `vdc.save.v1` (`{ version, savedAt, state }`); loads are validated structurally and rejected if corrupt or from another version. Settings use `vdc.settings.v1`.
