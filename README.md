@@ -1,5 +1,5 @@
 # Echoes of the Crypt - Voice-Controlled AI Dungeon Crawler
-
+ 
 Speak to your hero. *"Go to the treasure chest and open it."* A natural-language layer turns speech into a structured command, a deterministic game engine validates and runs it, and a Phaser pixel-art dungeon shows what happened.
 
 ```
